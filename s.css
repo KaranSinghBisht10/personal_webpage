@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+#parent{
+    position: relative;
+    height: 100vh;
+    background-color: red;
+}
+
+#child{
+    position: absolute;
+    width: 70vw;
+    height: 100%;
+    
+    background-color: blueviolet;
+
+}
+
+#container{
+    background-color: black;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+}
+
+.displaynone{
+    display: none;
+} */
