@@ -201,7 +201,7 @@ margin-left: 1vh;
     color: #0ef;
    
     
-    padding: 1vw;
+    padding: 25%;
     border-radius: 1.2vh;
     font-weight: bold;
 
@@ -210,7 +210,7 @@ margin-left: 1vh;
 
 
 .sidebar nav li :hover{
-    background-color: black;
+
     font-weight: bold;
     color: white;
    border-radius: 5px;

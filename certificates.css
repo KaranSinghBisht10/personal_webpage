@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.inner-container{
+    height: 100vh;
+    padding-top: 20vh;
+}
+.course1{
+    
+    background-color: #ff0000;
+    height:12.3vw;
+    margin-left: 14vw;
+    
+}
+
