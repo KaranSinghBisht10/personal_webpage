@@ -21,7 +21,7 @@
      <li><a href="test.html">Home</a>  </li> 
      <li><a href="about.html" id="About">About</a> </li> 
      <li><a href="contact.html">Contact</a> </li> 
-     <li><a href="projects.html">Courses</a>  </li>
+     <li><a href="certificates.html">Courses</a>  </li>
     
   </ul>
   
@@ -31,12 +31,12 @@
  
 
 <button class="button">EXPLORE<i class="ri-arrow-right-line"></i></button>
-<form class="form">
+<form class="form" action="http://localhost:80/connect.php" method="post">
             <h1 class="contactMe">Contact me!!</h1>
               <div class="form_elements">
                 <div class="mb-3">
                   <label for="Name" class="form-name">Name</label>
-                  <input type="name" placeholder="Enter your full name" class="form-control" id="exampleInputName" name="Name"></div>
+                  <input type="name" placeholder="Enter your full name" class="form-control" id="exampleInputName" name="name"></div>
                 <div class="mb-3">
               <label for="exampleInputEmail1" class="form-mail">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
@@ -48,15 +48,12 @@
             </div>
             <div class="mb-3">
               <label for="email" style="font-size: 1.8em;">Gender</label>
-               <label for="male" class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
-               <label for="male" class="radio-inline"><input type="radio" name="gender" value="female">Female</label>
+               <label for="male" class="radio-inline"><input type="radio" name="gender" value="m">Male</label>
+               <label for="male" class="radio-inline"><input type="radio" name="gender" value="f">Female</label>
             </div>
-            <div class="mb-3_form-check">
-              <input type="checkbox" class="form-check-input" id="isClient" name="checkbox">
-              <label class="form-check-label" for="isClient">Want to work on a project with me!</label>
-            </div>
+           
           
-            <button type="submit" class="button2">Submit</button>
+            <button type="submit"  name="submit" value="submit">Submit</button>
           </form>
       
       </div> 
@@ -78,7 +75,7 @@
 
 
 
-        <script src="contact.js"></script>
+        <script src="sidebar.js"></script>
 
 
 </body>

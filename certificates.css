@@ -3,16 +3,32 @@
     margin: 0;
 }
 
-
-.inner-container{
-    height: 100vh;
-    padding-top: 20vh;
-}
-.course1{
-    
-    background-color: #ff0000;
-    height:12.3vw;
-    margin-left: 14vw;
-    
+#inner-container{
+display: flex;
+flex-direction: column;
+margin-top: 20vh;
+align-items: center;
 }
 
+
+.iframe{
+    height:37vh;
+    
+}
+.iframe:hover{
+    transform: translateX(8vw);
+   transition: transform 0.3s ease-in-out;
+}
+
+h2{
+    color: white;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    left: 45vw;
+    top: 4vh;
+    
+}
