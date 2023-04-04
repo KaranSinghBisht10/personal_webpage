@@ -108,7 +108,12 @@ const hello= setTimeout(function hey(e){
 conatiner.classList.add("displaynone");
 },2000)
 
+//Resume 
+const pdfButton = document.getElementById('resume');
 
+pdfButton.addEventListener('click', () => {
+  window.open('Karan_Singh Bisht_Resume.pdf', '_blank');
+});
 
 
 

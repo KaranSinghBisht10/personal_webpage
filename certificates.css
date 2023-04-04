@@ -13,11 +13,11 @@ align-items: center;
 
 .iframe{
     height:37vh;
+    transition: box-shadow 0.3s ease-in-out;
     
 }
 .iframe:hover{
-    transform: translateX(8vw);
-   transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgb(255, 248, 248);
 }
 
 h2{
