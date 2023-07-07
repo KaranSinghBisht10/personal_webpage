@@ -108,3 +108,13 @@
   .social-icon:hover:after {
     transform: translate(0) scale(1.2);
   }
+
+
+
+
+
+  @media screen and (max-width: 415px){
+    .wrapper{
+      display: none;
+    }
+  }

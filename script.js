@@ -57,7 +57,7 @@ function  moveLeft(face1width,face2width){
 }
 
 function moveRight(face1width,face2width){
-    if(face1width<maxWidth+20){
+    if(face1width<maxWidth){
         face1.style.width= face1width+10+"px";
          face2.style.width=face2width-10+"px";
        
@@ -102,18 +102,6 @@ return dir;
 
 
 
-//flash screen
-var conatiner=document.getElementById("containerflash");
-const hello= setTimeout(function hey(e){
-conatiner.classList.add("displaynone");
-},2000)
-
-//Resume 
-const pdfButton = document.getElementById('resume');
-
-pdfButton.addEventListener('click', () => {
-  window.open('Karan_Singh Bisht_Resume.pdf', '_blank');
-});
 
 
 
@@ -121,11 +109,24 @@ pdfButton.addEventListener('click', () => {
 
 
 
-
-
-
-
-
+// function checkScreenSize(mediaQuery) {
+//     if (mediaQuery.matches) {
+//       // Screen size is reduced, disable the function
+//       myFunction = function() {
+//         console.log("Function is disabled");
+//       };
+//     } else {
+//       // Screen size is not reduced, enable the function
+//       myFunction = changeFace();
+//     }
+//   }
+  
+//   // Add event listener for screen size changes
+//   const mediaQuery = window.matchMedia("(max-width: 900px)");
+//   mediaQuery.addEventListener("change", checkScreenSize);
+  
+//   // Initial check for screen size
+//   checkScreenSize(mediaQuery);
 
 
 

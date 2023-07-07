@@ -12,7 +12,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(15, 1, 39);
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -48,6 +48,7 @@
 
 .sidebar{
     position: absolute;
+    z-index: 99;
     width: 14vw;
     height: 100vh;
     background-color:black;
@@ -79,9 +80,14 @@ margin-left: 1vh;
     transition: all 0.2s ease-out;
 }
 
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+  
+}
 
 .sidebar nav li :hover{
-    background-color: black;
+   
     font-weight: bold;
     color: white;
  
@@ -127,11 +133,6 @@ div button {
 }
 
 
-.button2{
-padding-left: 10px;
-
-}
-
 
 .form-mail{
     font-size: 1.8em;
@@ -170,51 +171,24 @@ padding-left: 10px;
     cursor:pointer;
 }
 
-.sidebarGo{
-    transform: translate(-443px,0px);
-    position: absolute;
-  
-}
+
 
 .form_elements{
 margin-left:2vw;
 
 }
-@media (max-width:940px) {
-.sidebar{
-    background-color: black;
-    opacity: 0.9;
-   text-align: center;
-    width: 100vw;
-    height: 100vh;
-}
-.sidebar nav  li a{
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
-}
-.sidebarGo {
-    transform: translate(-10000px,0px);
-    position: absolute;
-}
-.sidebar nav li :hover{
+
+#sub_btn:hover{
+    box-shadow: 0 0 20px rgb(5, 145, 147);
     background-color: white;
-    font-weight: bold;
     color: black;
-   border-radius: 5px;
-    
- }
-}
-
-.dark{
-    background-color: #222;
-    color: #e6e6e6;
-    
-}
-#switch{
-    position: absolute;
-    right: 1vw; 
-  
 }
 
 
+
+
+
+
+
+
+ 

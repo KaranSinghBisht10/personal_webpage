@@ -7,15 +7,16 @@
 body{
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(15, 1, 39);
+    overflow-x: hidden;
 }
+
 .container{
     position: relative;
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(15, 1, 39);
+    height: 120vh;
+    background-color: rgb(244, 244, 244);
 }
     
 
@@ -45,37 +46,55 @@ body{
     width: 86vw;
     
     height: 100%;
-    background-color: rgb(15, 1, 39);
+    background-color: rgb(244, 244, 244);
 }
 
 
+@media (max-width:900px) {
+    .face{
+     left: 0%;
+
+     max-width: 80%;
+     width: 50%;
+    }
+
+
+}
+
 
 .face{
-   margin-top: 3vh;
-    height: 90vh;
+   margin-top: 6%;
+   
+   height: 600px;
     width: 50%;
     float: left;
     background-size: cover;
-    
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 1.5));
 
 }
 
 #face1{
-   background-image: url("mine0.jpg");
-   
+   background-image: url("images/mine0.jpg");
+   background-position: 5.5% 0%;
+     background-size: 110vh;
+   background-repeat: no-repeat;
   
+ 
 }
 #face2{
-    background-image: url("mine2.png");
-     background-position: 100% 0%;
+    
+    background-image: url("images/myself.png");
+     background-position: 110% 0%;
      
+        background-repeat: no-repeat;
+     background-size: 100vh;
      
 }
 
 .faces{
     position: absolute;
     left: 25%;
- 
+
     
 }
 .text{
@@ -88,11 +107,11 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    color: aliceblue;
+    color: black;
     
 }
 h1{
-    color: #0ef;
+    color: rgb(9, 184, 178);
     font-weight:bold;
 }
 @keyframes floating {
@@ -127,8 +146,8 @@ h1{
     border: none;
     padding: 0px 18px;
     cursor: pointer;
-    z-index: 10;
-    color: white;
+    z-index: 100;
+    color: black;
   }
   .button::before {
     content: "";
@@ -138,7 +157,7 @@ h1{
     translate: calc(100% + 4px) -50%;
     width: 45px;
     height: 45px;
-    background: #0ef;
+    background:rgb(9, 184, 178);
     border-radius: 50px;
     transition: translate 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2),
       width 0.25s cubic-bezier(0, 0, 0.5, 2);
@@ -164,7 +183,7 @@ h1{
     padding: 0.1vw;
     width: 7.8vw;
     border-radius: 3rem;
-   top: 75vh;
+   top: 75%;
    left: 8vw;
    font-weight: bold;
    background-color: rgb(1, 154, 164);
@@ -174,6 +193,8 @@ h1{
 }
 .button2:hover{
     box-shadow: 0 0 20px #0ef;
+    background-color: white;
+   color: black;
 }
 
 
@@ -181,16 +202,16 @@ h1{
   
 .sidebarGo{
     transform: translate(-443px,0px);
-    position: absolute;
+    position: fixed;
   
 }
 
 .sidebar{
-    position: absolute;
-    
+    position: fixed;
+    z-index: 99;
     width: 14vw;
     height: 100vh;
-    background-color:black;
+    background-color:#f5b576;
     opacity: 0.8;
     display: flex;
     flex-direction: column;
@@ -198,6 +219,7 @@ h1{
     font-family: 'Roboto Condensed', sans-serif;
     transition: transform 0.5s;
 }
+
 nav{
     padding: 2vh;
 margin-left: 1vh;
@@ -209,7 +231,7 @@ margin-left: 1vh;
 }
 .sidebar li a{
     text-decoration: none;
-    color: #0ef;
+    color: black;
    
     
     padding: 25%;
@@ -224,12 +246,35 @@ margin-left: 1vh;
 
     font-weight: bold;
     color: white;
-   border-radius: 5px;
+   
     
  }
 
 
+.icon{
+    height: 40px;
+
+}
+
+   
+#basic_info{
+position:absolute;
+top: 105vh;
+
+width: 100vw;
+
+background-color:  rgb(244, 244, 244);
+}
 
 
 
 
+
+
+
+
+
+
+
+    
+  

@@ -1,5 +1,6 @@
+
 .info{
-	color: white;
+	color: black;
 	padding-left: 20vw;
 	font-size: 3vw;
 }
@@ -14,6 +15,10 @@
 .card:first-of-type{
 	padding-left: 20vw;
 	
+}
+
+#first_card{
+	padding-left: 20vw;
 }
 .card__inner {
 	position: relative;
@@ -56,12 +61,6 @@
 
 }
 
-.icon{
-	width: 3%;
-	height: 3%;
-	margin: 0;
-	padding-right: 1vw;
-}
 .titles{
 	padding-left: 20vw;
 	font-size: 2vw;
@@ -71,9 +70,37 @@ h1{
 	padding-left: 45%;
 	font-size: 4vw;
 }
+h2{
+	padding-left: 20vw;
+	font-size: 2.5vw;
+}
 p{
 	width: 55vw;
-	color: white;
+	color: black;
 	padding-left: 20vw;
-	font-size: 2vw;
+	font-size: 1vw;
 }
+a{
+	
+	color: black;
+}
+
+
+#image{
+    position:absolute;
+	left: 77vw;
+	top: 28vh;
+	float: right;
+	height: 30vh;
+	width: 18vw;
+}
+
+
+#image2{
+	position: absolute;
+     height: 30vh;
+	 width: 17vw;
+	 left: 77vw;
+	 bottom: 70vh;
+}
+

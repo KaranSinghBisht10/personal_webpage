@@ -17,11 +17,11 @@ align-items: center;
     
 }
 .iframe:hover{
-    box-shadow: 0 0 20px rgb(255, 248, 248);
+    box-shadow: 0 0 20px rgb(5, 149, 142);
 }
 
-h2{
-    color: white;
+h2, p{
+    color: black;
     margin-bottom: 5vh;
     cursor: pointer;
 }
@@ -32,3 +32,27 @@ h1{
     top: 4vh;
     
 }
+
+ a{
+    text-decoration: none;
+    
+}
+
+.learn{
+   
+
+  transition: transform 0.5s;
+ 
+}
+
+.a:hover + .learn{
+  
+    transform: translate(2vw, 0px);
+    
+   
+}
+
+.a:not(:hover) + .learn {
+   
+    transform: translate(-10000px, 0px);
+  }
