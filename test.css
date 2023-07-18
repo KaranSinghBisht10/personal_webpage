@@ -50,12 +50,9 @@ body{
 }
 
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
     .face{
-     left: 0%;
-
-     max-width: 80%;
-     width: 50%;
+        visibility:hidden
     }
 
 
@@ -209,7 +206,7 @@ h1{
 .sidebar{
     position: fixed;
     z-index: 99;
-    width: 14vw;
+    width: 215px;
     height: 100vh;
     background-color:#f5b576;
     opacity: 0.8;
