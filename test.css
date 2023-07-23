@@ -178,10 +178,11 @@ h1{
 .button2{
     position: absolute;
     padding: 0.1vw;
-    width: 7.8vw;
+    width: 120px;
     border-radius: 3rem;
    top: 75%;
    left: 8vw;
+   font-size: 100%;
    font-weight: bold;
    background-color: rgb(1, 154, 164);
    color: white;
