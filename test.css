@@ -49,14 +49,26 @@ body{
     background-color: rgb(244, 244, 244);
 }
 
+#nam{
+    font-size: 200%;
+    position: absolute; 
+    margin-top: 14vh; 
+    left: 3vw; 
+    width: 20%;
+}
 
 @media (max-width:1000px) {
     .face{
         visibility:hidden
     }
-
-
+  
+#nam{
+    font-size: 150%;
+    left: 10vw;
 }
+}
+
+
 
 
 .face{
