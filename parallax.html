@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="parallax.css">
+    <link rel="stylesheet" href="parallax2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>parallax</title>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand navbar-light bg-transparent"   style="z-index: 1000; background-color: #c9e1f2;">
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+       
+      </ul>
+ 
+    </div>
+  </nav>
+
   <section class="parallax">
    
 <img src="parallax/hill1.png" id="hill1">
@@ -17,22 +37,47 @@
 <img src="parallax/hill5.png" id="hill5">
 <img src="parallax/tree.png" id="tree">
 <img src="parallax/plant.png" id="plant">
-<h1><span>Explore the</span><br>Artworks and Designs</h1>
 <img src="parallax/leaf.png" id="leaf">
+<h1><span>Explore the</span><br>Artworks and Designs</h1>
+
 
 </section>
 <h2>Designs Artworks</h2><br>
-<section class="content">
-  
- <iframe><div class="art japan"></div></iframe>
-<div class="art free"></div>
-<div class="art kimono"></div>
-<div class="art colors"></div>
-<div class="art vector"></div>
-<div class="art mask"></div>
- 
-</section>
+<div class="container2">
+<div class="wrapper">
+  <div class="gallery">
+    <div class="image"><span><img src="designs/be free.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/japan.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/kimono_12.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/mask.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/sakura.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/ship of colours.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/vector(half transistion).jpg" alt=""></span></div>
+    <div class="image"><span><img src="designs/Green world.png" alt=""></span></div>
+    <div class="image"><span><img src="designs/polygon art.png" alt=""></span></div>
+  </div>
+</div>
+<div class="preview-box">
+  <div class="details">
+    <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+    
+  </div>
+  <div class="image-box">
+    <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+    <div class="slide next"><i class="fas fa-angle-right"></i></div>
+    <img src="" alt="">
+  </div>
+</div>
+<div class="shadow"></div>
+<script src="parallax2.js"></script>
+
+
+
+</div>
 </body>
 
 <script src="parallax.js" async defer></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

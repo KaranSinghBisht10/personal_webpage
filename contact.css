@@ -5,38 +5,36 @@
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container2{
+    background-image: url("images/contact_background.png");
+    height: 70%;
+    width: 60%;
+    float: left;
+    background-size: cover;
+    margin-left: 7vw;
+    margin-top: 10vh;
+   
+}
+
+
+
+.container3{
+
     position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(15, 1, 39);
-    color: black;
-    text-decoration: none;
+    top: 30%;
+    left: 10%;
 }
-
-
-
-.form{
-    position: absolute;
-    top: 2vw;
-    left: 30vw;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-     background: rgba(255, 255, 255,0.1);
-     border-radius: 16px;
-     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur(3px);
-}
-
-
 /* Contact me! */
 .contactMe{
-    font-size: 3.4vw;
-    position: relative;
-    left: 15vw;
+    font-size: 250%;
+    position: absolute;
+    left: 40%;
     
 }
+
+
+
 
 /* Sidebar code */
   
@@ -98,21 +96,13 @@ margin-left: 1vh;
 
 
 
+  
 
-.name{
-   
-    font-weight: bold;
-    font-family: 'Roboto Condensed', sans-serif;
-    
-    
-}
 .about{
     font-size: 23px;
    
 }
-.btn{
-    display: flex;
-}
+
 
 div button {
     padding: 8px;
@@ -134,59 +124,14 @@ div button {
 
 
 
-.form-mail{
-    font-size: 1.8em;
+
+
+@media (max-width: 768px) {
+    .container2 {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
-.form-phone{
-    font-size: 1.8em;
-}
-.form-name{
-    font-size: 1.8em;
-}
-.mb-3{
-    display: grid;
-    margin: 29px;
-}
-#email-help{
-    margin-top: 12px;
-}
-
-.btn-primary{
-    margin: 30px;
-}
-.form-control{
-    font-size: 29px;
-    width: 40vw;
-}
-.mb-3_form-check{display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-}
-
-
-.symbol{
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    cursor:pointer;
-}
-
-
-
-.form_elements{
-margin-left:2vw;
-
-}
-
-#sub_btn:hover{
-    box-shadow: 0 0 20px rgb(5, 145, 147);
-    background-color: white;
-    color: black;
-}
-
-
-
-
 
 
 

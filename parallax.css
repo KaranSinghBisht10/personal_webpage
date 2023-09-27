@@ -42,7 +42,7 @@ span{
     justify-content: center;
 }
 body{
-    background-color: #003329;
+   
     overflow-x: hidden;
     min-height: 100vh;
     
@@ -56,43 +56,10 @@ body{
 
 }
 
-
-.art {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    margin: 3vh;
-    padding: 20vh;
-    text-align: center;
-    transition: box-shadow 0.3s ease-in-out;
-    max-width: 470.33px;
-    max-height: 258.55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
+.navbar{
+    position: absolute;
+    top: -70vh;
+    left: -39vw;
+    font-weight: 40px;
 }
 
-.art.japan {
-    background-image: url("designs/japan.png");
-}
-
-.art.free {
-    background-image: url("designs/be free.png");
-}
-
-.art.kimono {
-    background-image: url("designs/kimono _12_layer.png");
-}
-
-.art.colors {
-    background-image: url("designs/ship of colours.png");
-}
-
-.art.vector {
-    background-image: url("designs/vector(half transistion).jpg");
-}
-
-.art.mask {
-    background-image: url("designs/mask.png");
-}
